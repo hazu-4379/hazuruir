@@ -1,0 +1,15 @@
+h1{
+    color: darkkhaki;
+}
+p.sub-title1{
+    color: darkturquoise;
+}
+p#sub-title2{
+    color: lightgreen;
+}
+.company{
+    font-weight: bold;
+    font-size: larger;
+}
+
+
