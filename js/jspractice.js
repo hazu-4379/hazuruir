@@ -24,6 +24,7 @@
 // console.log(x++);
 // console.log(++x);
 
+'use strict';
 
 let age =30;
 const name ="田中太郎";
