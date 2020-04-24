@@ -9,24 +9,37 @@
 <body>
     <script>
     
-    class SuperNaming {
-            constructor() {
-         this.name = "田中";
-         }
-        outputName() {
-            return this.name;
-        }
-    }
-    class SubGreeting extends SuperNaming {
-        outputName() {
-            return super.outputName() + "太郎";
-        }
-        outputHello() {
-            return "Hello!!";
-        }
-    }
-    const Greeting = new SubGreeting;
-    console.log(Greeting.outputHello() + Greeting.outputName());
+    // class SuperNaming {
+            // constructor() {
+        //  this.name = "田中";
+        //  }
+        // outputName() {
+        //     return this.name;
+        // }
+    // }
+    // class SubGreeting extends SuperNaming {
+    //     outputName() {
+    //         return super.outputName() + "太郎";
+    //     }
+    //     outputHello() {
+    //         return "Hello!!";
+    //     }
+    // }
+    // const Greeting = new SubGreeting;
+    // console.log(Greeting.outputHello() + Greeting.outputName());
+class Naming {
+constructor(name) {
+
+    this.name = ["山田" ,"田中" ,"林" ,name]
+}
+result(i) {
+ return this.name[i]
+ }
+}
+const 
+for(let i = 0; i < OutputNmae.name.length; i++){
+ console.log(OutputName.result(i));
+}
 
        
 
